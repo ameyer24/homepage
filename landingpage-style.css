@@ -21,3 +21,18 @@ header {
 	text-align: center;
 	border-bottom: 4px solid #1a1a1a;
 }
+
+
+img {
+	max-width: 100%;
+}
+.col3 {
+	width: 30%;
+	display: block;
+	float: left;
+	min-width: 300px;
+	padding-right: 3%;
+}
+h2 .col3 {
+	text-align: center;
+}
