@@ -17,7 +17,7 @@ h1 {
 	line-height: 1.25;
 	margin-bottom: 1em;
 }
-header {
+header  {
 	text-align: center;
 	border-bottom: 4px solid #1a1a1a;
 }
@@ -35,4 +35,7 @@ img {
 }
 h2 .col3 {
 	text-align: center;
+}
+footer img {
+	width: 100px;
 }
