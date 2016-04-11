@@ -8,14 +8,18 @@ p {
 	font-size: 1rem;
 	line-height: 1.75;
 }
+a {
+	text-decoration: none;
+}
 
-h1 {
+h1 , h2{
     font-family: Montserrat, "Helvetica Neue", sans-serif;
-	font-size: 30px;
 	font-size: 2rem;
-	font-weight: 700;
-	line-height: 1.25;
-	margin-bottom: 1em;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.5rem;
 }
 header  {
 	text-align: center;
@@ -27,17 +31,22 @@ img {
 	max-width: 100%;
 }
 .col3 {
-	width: 30%;
+	width: 31%;
 	display: block;
 	float: left;
 	min-width: 300px;
-	padding-right: 3%;
+	padding-right: 2%;
 }
 h2 .col3 {
 	text-align: center;
 }
+footer {
+	clear: both;
+	border-top: 4px solid #1a1a1a;
+}
 footer img {
-	width: 100px;
-    margin-left: auto;
-    margin-right: auto;
+	width: 13%;
+	min-width: 50px;
+	margin-right: 3%;
+
 }
